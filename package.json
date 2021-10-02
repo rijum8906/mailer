@@ -1,0 +1,26 @@
+{
+  "name": "@sipaap/mail",
+  "version": "1.0.1",
+  "description": "A node mailer",
+  "main": "index.js",
+  "dependencies": {
+    "nodemailer": "^6.6.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "sipaap mail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rijum8906/mailer.git"
+  },
+  "keywords": [
+    "mailer"
+  ],
+  "author": "sipaap",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rijum8906/mailer/issues"
+  },
+  "homepage": "https://github.com/rijum8906/mailer#readme"
+}
