@@ -3,17 +3,18 @@ exports.mail=function(tos,subjects,texts){
   var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: "rijum8906@gmail.com",
-    pass: "7407780693@riju"
+    user: "your gmail@gmail.com",
+    pass: "your password"
   }
 });
 
 var mailOptions = {
-  from: "rijum8906@gmail.com",
+  from: "your gmail@gmail.com",
   to: tos,
   subject: subjects,
   text: texts
 };
+
 
 transporter.sendMail(mailOptions, function(error, info){
   if (error) {
